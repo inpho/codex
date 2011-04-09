@@ -26,7 +26,8 @@ setup(
         ],
     install_requires=[
         "SQLAlchemy>=0.6.0,<=0.6.99",
-        "SPARQLWrapper>=1.4.0,<=1.4.99"
+        "SPARQLWrapper>=1.4.0,<=1.4.99",
+        "networkx>=1.4"
     ],
 
     long_description = """\
